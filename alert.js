@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log("1 || 2 = "+(1 || 2));
+const channelName = getChannelName(channel);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
