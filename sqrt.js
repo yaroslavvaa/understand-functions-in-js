@@ -1,4 +1,6 @@
-const merge = (a, b) => [...a, ...b];
+const randomString = () => Math.random().toString(36).slice(2);
 console.log(+"1" +  "1" + "2");
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const merge = [...new Set([...a, ...b])];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var DELIM_SIZE = 4;
