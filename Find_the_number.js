@@ -1,4 +1,3 @@
-console.log(false === '0');
-var pattern = {};
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var arr2 = arr1.reverse();
