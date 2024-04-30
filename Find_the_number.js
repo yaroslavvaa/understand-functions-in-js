@@ -1,3 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var arr2 = arr1.reverse();
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log(false === '0');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
