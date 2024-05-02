@@ -1,2 +1,2 @@
-var DELIM_SIZE = 4;
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const merge = Object.assign({}, obj1, obj2);
+const isEmptyArray = arr => !arr.length;
