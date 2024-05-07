@@ -1,3 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const uniqueArray = arr => [...new Set(arr)];
-const updated = numbers.filter(element => element > 6);
+const channelName = getChannelName(channel);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
