@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log(+"1" +  "1" + "2");
+const symbolsPath = path.join(buildOutputPath, 'symbols');
