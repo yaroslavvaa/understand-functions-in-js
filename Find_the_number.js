@@ -1,2 +1,1 @@
-console.log(+"1" +  "1" + "2");
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const goToTop = () => window.scrollTo(0, 0);
