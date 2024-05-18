@@ -1,2 +1,1 @@
-const merge = (a, b) => a.concat(b);
-console.log(+"1" +  "1" + "2");
+const updated = numbers.filter(element => element > 6);
