@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const maxNumber = arr => Math.max(...arr);
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+var arr2 = arr1.reverse();
+const getRandomBoolean = () => Math.random() >= 0.5;
