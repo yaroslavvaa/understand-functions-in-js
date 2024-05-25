@@ -1,2 +1,3 @@
-var arr2 = arr1.reverse();
-const getRandomBoolean = () => Math.random() >= 0.5;
+console.log( "A" - "B" + 2);
+const appName = getAppName(channel);
+console.log( "A" - "B" + "2");
