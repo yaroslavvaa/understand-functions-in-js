@@ -1,3 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const fullName = name || 'buddy';
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
