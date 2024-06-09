@@ -1,2 +1,1 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const executableName = getExecutableName(channel, appName);
+const removeDuplicates = (arr) => [...new Set(arr)];
