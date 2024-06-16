@@ -1,3 +1,1 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isArray = (arr) => Array.isArray(arr);
+const fullName = name || 'buddy';
