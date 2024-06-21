@@ -1,1 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const merge = [...new Set(a.concat(b))];
