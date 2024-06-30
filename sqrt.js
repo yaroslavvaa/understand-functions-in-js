@@ -1,3 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var arr1 = "john".split('');
-const isEmptyArray = arr => !arr.length;
+console.log("0 && 1 = "+(0 && 1));
