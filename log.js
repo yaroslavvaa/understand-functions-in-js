@@ -1,1 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const executableName = getExecutableName(channel, appName);
+const merge = [...new Set([...a, ...b])];
