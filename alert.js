@@ -1,3 +1,3 @@
-const merge = [...new Set(a.concat(b))];
-[foo, bar] = [bar, foo];
-var DELIM_SIZE = 4;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
