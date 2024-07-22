@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-[foo, bar] = [bar, foo];
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log( "A" - "B" + 2);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
