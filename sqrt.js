@@ -1,3 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const isTabInView = () => !document.hidden;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+var arr2 = arr1.reverse();
