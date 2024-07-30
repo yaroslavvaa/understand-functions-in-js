@@ -1,2 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const updated = numbers.filter(element => element > 6);
+const merge = Object.assign({}, obj1, obj2);
