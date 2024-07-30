@@ -1,2 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-var arr2 = arr1.reverse();
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const arrayContains = (arr, element) => arr.includes(element);
