@@ -1,2 +1,2 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-var c = new Counter(); c.add(); c.add(); c.add();
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log( "A" - "B" + 2);
